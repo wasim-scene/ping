@@ -20,7 +20,7 @@ def run_script():
         except Exception as e:
             print(f"Failed to ping {url}: {e}")
         time.sleep(300)
-            pass
+        pass
 
 if __name__ == "__main__":
     # Run the long-running script in a separate thread
